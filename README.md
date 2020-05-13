@@ -1,7 +1,7 @@
 # now-static-site-starter
 > :zap: A template repo for building simple static sites with Eleventy and a headless CMS of choice to be deployed using Now.
 
-[![Deploy to Vercel](https://vercel.com/button)](/import/project?template=https://github.com/kriskuiper/now-static-site-starter)
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/kriskuiper/now-static-site-starter)
 
 ## Prerequisites
 If you want to deploy this project using Vercel (formerly Zeit Now) then please make sure you have created an account.
