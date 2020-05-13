@@ -7,13 +7,16 @@
   "license": "MIT",
   "scripts": {
     "build": "rimraf _site && cross-env ELEVENTY_ENV=production eleventy",
-    "dev": "rimraf _site && cross-env ELEVENTY_ENV=development eleventy --serve --watch --port $PORT"
+    "dev": "rimraf _site && cross-env ELEVENTY_ENV=development eleventy --serve --watch --port $PORT",
+    "now:init": "now",
+    "now:dev": "now dev"
   },
   "dependencies": {},
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
     "cross-env": "^7.0.2",
     "html-minifier": "^4.0.0",
+    "now": "^19.0.1",
     "rimraf": "^3.0.2"
   }
 }
