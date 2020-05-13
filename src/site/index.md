@@ -3,5 +3,5 @@ title: "Home page"
 layout: "default"
 ---
 
-## Some page
-An awesome page
+This is the home page
+[To about page](/about)
