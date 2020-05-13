@@ -1,4 +1,4 @@
-# static-site-starter
+# now-static-site-starter
 > :zap: A template repo for building simple static sites with Eleventy and a headless CMS of choice to be deployed using Now.
 
 [![Deploy to Vercel](https://vercel.com/button)](/import/project?template=https://github.com/kriskuiper/static-site-starter)
