@@ -6,8 +6,8 @@
   "author": "Kris <kriskuiper74@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "rimraf dist && cross-env ELEVENTY_ENV=production eleventy",
-    "dev": "rimraf dist && cross-env ELEVENTY_ENV=development eleventy --serve"
+    "build": "rimraf _site && cross-env ELEVENTY_ENV=production eleventy",
+    "dev": "rimraf _site && cross-env ELEVENTY_ENV=development eleventy --serve"
   },
   "dependencies": {},
   "devDependencies": {

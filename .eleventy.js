@@ -7,9 +7,9 @@ module.exports = (config) => {
   return {
     dir: {
       input: "src/site",
-      output: "dist",
       data: "_data",
-      includes: "_includes"
+      includes: "_includes",
+      output: "_site"
     },
     templateFormats: ["html", "md", "11ty.js"],
     htmlTemplateEngine: "njk",
