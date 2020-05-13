@@ -1,7 +1,8 @@
 ---
-title: "Home page"
+title: "A very basic static site starter"
 layout: "default"
 ---
 
-This is the home page
-[To about page](/about)
+You can use this starter to build your own static website.
+
+[Template setup](/setup)

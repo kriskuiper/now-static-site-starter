@@ -1,7 +1,8 @@
 ---
-title: "About page"
+title: "Template setup"
 layout: "default"
 ---
 
-The about page
+About the project setup
+
 [Back to homepage](/)
