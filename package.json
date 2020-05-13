@@ -15,7 +15,7 @@
     "dev": "run-p dev:*",
     "dev:eleventy": "cross-env ELEVENTY_ENV=development eleventy --serve --watch --port $PORT",
     "dev:js": "rollup -c --watch",
-    "dev:css": "chokidar \"src/assets/scss/index.scss\" -c \"yarn run build:css\"",
+    "dev:css": "run-s build:css && chokidar \"src/assets/scss/index.scss\" -c \"yarn run build:css\"",
     "now:init": "now",
     "now:dev": "now dev"
   },
