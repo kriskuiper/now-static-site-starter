@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "build": "rimraf _site && cross-env ELEVENTY_ENV=production eleventy",
-    "dev": "rimraf _site && cross-env ELEVENTY_ENV=development eleventy --serve"
+    "dev": "rimraf _site && cross-env ELEVENTY_ENV=development eleventy --serve --watch --port $PORT"
   },
   "dependencies": {},
   "devDependencies": {
