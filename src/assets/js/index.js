@@ -1,6 +1,6 @@
-console.log('Works 👍')
+console.log('Works! 🙌')
 
-// Check if the serverless function is working
+// Check if serverless functions are working
 fetch('/api/hello')
   .then(response => response.json())
   .then(data => {
