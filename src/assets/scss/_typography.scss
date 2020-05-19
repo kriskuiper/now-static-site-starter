@@ -1,0 +1,16 @@
+h1 {
+  margin: 0;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background: #3742fa;
+  padding: 10px;
+  border-radius: 3px;
+
+  &:active {
+    transform: scale(.98);
+  }
+}
