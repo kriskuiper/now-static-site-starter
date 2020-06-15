@@ -16,8 +16,8 @@
     "dev:eleventy": "cross-env ELEVENTY_ENV=development eleventy --serve --watch --port $PORT",
     "dev:js": "rollup -c --watch",
     "dev:css": "run-s build:css && chokidar \"src/assets/scss/index.scss\" -c \"yarn run build:css\"",
-    "now:init": "now",
-    "now:dev": "now dev"
+    "vercel:init": "vercel",
+    "vercel:dev": "vercel dev"
   },
   "dependencies": {},
   "devDependencies": {
@@ -28,10 +28,10 @@
     "cross-env": "^7.0.2",
     "html-minifier": "^4.0.0",
     "node-sass": "^4.14.1",
-    "now": "^19.0.1",
     "npm-run-all": "^4.1.5",
     "rimraf": "^3.0.2",
     "rollup": "^2.10.0",
-    "rollup-plugin-terser": "^5.3.0"
+    "rollup-plugin-terser": "^5.3.0",
+    "vercel": "^19.1.0"
   }
 }
