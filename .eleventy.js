@@ -1,8 +1,9 @@
-module.exports = (config) => {
-  config.addLayoutAlias('default', 'layouts/default.html')
+const use404 = require('./lib/use-404')
 
-  config.addPassthroughCopy('./src/site/scripts')
-  config.addPassthroughCopy('./src/site/styles')
+module.exports = (eleventyConfig) => {
+  eleventyConfig.addLayoutAlias('default', 'layouts/default.html')
+
+  eleventyConfig.setBrowserSyncConfig(use404)
 
   return {
     dir: {
